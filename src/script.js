@@ -58,7 +58,7 @@ function create() {
     var backgroundMusic = this.sound.add('backgroundMusic', { loop: true });
     backgroundMusic.play();
 
-    scoreText = this.add.text(16, 40, 'Score: 0', { fontSize: '32px', fill: '#fff' });
+    scoreText = this.add.text(16, 40, 'Score: 0', { fontSize: '32px', fill: '#0000FF' });
 
     bars = this.physics.add.group({
         allowGravity: false,
